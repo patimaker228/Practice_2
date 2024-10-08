@@ -1,0 +1,12 @@
+﻿<Window x:Class="YourNamespace.TranslatorWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Переводчик" Height="150" Width="400">
+    <StackPanel>
+        <TextBlock Text="Введите слово ( Природные явления) : " Margin="10" FontSize="15" FontFamily="Arial Black"/>
+        <TextBox x:Name="InputTextBox" Margin="10" SelectionBrush="Black" SelectionTextBrush="Black" OpacityMask="Black" />
+        <Button Content="Перевести" Click="Translate" HorizontalAlignment="Center" FontSize="16" FontFamily="Arial Black"/>
+        <TextBlock x:Name="ResultTextBlock" Margin="10"/>
+    </StackPanel>
+</Window>
+
